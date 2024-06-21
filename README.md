@@ -260,6 +260,8 @@ The frontend application makes API calls to the backend for:
 ### JSON File Structure
 
 The `db.json` file structure should be an array of submission objects, each containing the following fields:
+![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/92ff75b4-e673-4494-ac18-6554d8645455)
+
 ```json
 [
   {
@@ -270,6 +272,4 @@ The `db.json` file structure should be an array of submission objects, each cont
     "stopwatchTime": 120
   }
 ]
-![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/95f0ba19-92f9-48c7-b645-a313bdd8754e)
-
 
