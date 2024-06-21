@@ -60,7 +60,7 @@ The backend server is built with Express and TypeScript, handling the submission
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/submission-app-backend.git
+    git clone https://github.com/hrishikeasan33/Slidely.ai-Task-2Desktop-App-Evaluation.git
     cd submission-app-backend
     ```
 
@@ -145,6 +145,9 @@ The backend server is built with Express and TypeScript, handling the submission
       ```bash
       npm start
       ```
+   ![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/d53f5f62-f4ee-44ea-be82-701fd8ce0efa)
+   ![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/34285958-f15b-4dd0-9c97-79dce804aeee)
+
 
 ## Usage
 
@@ -184,6 +187,12 @@ The backend server is built with Express and TypeScript, handling the submission
   - `ViewSubmissionsForm_Load`: Loads submissions from the backend on form load.
   - `btnPrevious_Click` & `btnNext_Click`: Navigate through submissions.
   - `DisplaySubmission`: Displays the current submission details.
+    ![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/a699f20a-19bc-4010-a30e-247deba2f17d)
+    ![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/8d8643d0-06c5-4fb6-8c16-a5952f19a7fd)
+    ![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/9b4af3c7-dd27-4d2e-be35-7ed7d9da97c8)
+
+
+
 
 ### Create Submission Form (`CreateSubmissionForm`)
 
@@ -195,6 +204,8 @@ The backend server is built with Express and TypeScript, handling the submission
 - **Functions**:
   - `btnStopwatch_Click`: Starts or stops the stopwatch.
   - `btnSubmit_Click`: Collects the data and sends it to the backend server for storage.
+![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/76bfbbe1-4d1f-41f4-b021-be1ea286c899)
+Submission will be saved
 
 ## Troubleshooting
 
@@ -219,6 +230,8 @@ The frontend application makes API calls to the backend for:
 - **`/ping`**:
   - **Method**: GET
   - **Description**: A health check endpoint that always returns `true`.
+  - ![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/89614707-9f11-4ac5-a116-902c1432a9ea)
+
 
 - **`/submit`**:
   - **Method**: POST
@@ -229,12 +242,20 @@ The frontend application makes API calls to the backend for:
     - `github_link` (string)
     - `stopwatch_time` (number)
   - **Description**: Saves a new submission to the JSON file.
+![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/ffa5d853-7976-4237-8389-2be2d183a1c1)
 
 - **`/read`**:
   - **Method**: GET
   - **Query Parameter**: 
     - `index` (number) - 0-indexed position of the submission to read.
   - **Description**: Retrieves the submission at the specified index from the JSON file.
+
+  ![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/c11da295-4c92-462c-b6f4-f8aadb1d2ca2)
+  ![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/2dd59a2a-c024-4124-b647-21130b47ec51)
+  ![image](https://github.com/hrishikeasan33/Slidely.ai-Task-2-Windows-Desktop---Backend-Evaluation/assets/143091137/83167e14-4bf5-4b87-bbe4-5273c8eea840)
+
+
+
 
 ### JSON File Structure
 
