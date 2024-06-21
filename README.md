@@ -36,7 +36,7 @@ Submission App is a Windows Desktop application built with Visual Basic. It prov
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/your-username/submission-app.git
+    git clone https://github.com/hrishikeasan33
     cd submission-app
     ```
 
